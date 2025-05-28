@@ -25,7 +25,7 @@ jobs:
         java-version: 17
     - name: Publish to Exchange
       run: 
-        mvn deploy
+        mvn deploy --settings .maven/settings.xml
     - name: Deploy to Clouhub 2,0
       run: 
-        mvn deploy -DmuleDeploy
+        mvn deploy -DmuleDeploy --settings .maven/settings.xml
