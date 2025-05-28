@@ -1,4 +1,0 @@
-{
-	"firstName": "Shatadru",
-	"secondName": "Mandal"
-}
