@@ -22,5 +22,9 @@ output application/json
 	"message": "success",
 	"status": 200
 }]' doc:name="Set Payload" doc:id="024124b1-f903-48cd-8704-dac63816534a" />
+		<logger doc:name="End Log" doc:id="sgavth" message='"End Log"'/>
+		<error-handler>
+			
+		</error-handler>
 	</flow>
 </mule>
