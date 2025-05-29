@@ -19,20 +19,4 @@
             <layout>default</layout>
         </mirror>
     </mirrors>
-
-    <profiles>
-        <profile>
-            <id>mulesoft</id>
-            <repositories>
-            <repository>
-                <id>mulesoft-releases</id>
-                <url>https://repository.mulesoft.org/releases/</url>
-            </repository>
-            </repositories>
-        </profile>
-    </profiles>
-
-    <activeProfiles>
-        <activeProfile>mulesoft</activeProfile>
-    </activeProfiles>
 </settings>
