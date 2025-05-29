@@ -17,8 +17,8 @@ jobs:
         java-version: 17
 
     - name: Deploy to Exchange
-      run: mvn deploy -s .maven/settings.xml
+      run: mvn deploy -settings .maven/settings.xml
 
     - name: Deploy to CloudHub
       run: |
-        mvn deploy -DmuleDeploy -s .maven/settings.xml
+        mvn deploy -DmuleDeploy -settings .maven/settings.xml

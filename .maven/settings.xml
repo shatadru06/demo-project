@@ -9,4 +9,14 @@
         <password>92b56faad4be475383c817c897f465ec~?~a9Fc21A41D8A4231a76e250a4416BB90</password>
     </server>
    </servers>
+
+   <mirrors>
+        <mirror>
+            <id>mulesoft-releases</id>
+            <mirrorOf>mulesoft-releases</mirrorOf>
+            <name>MuleSoft Releases</name>
+            <url>https://repository.mulesoft.org/releases/</url>
+            <layout>default</layout>
+        </mirror>
+    </mirrors>
 </settings>
