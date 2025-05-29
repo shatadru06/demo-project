@@ -26,7 +26,7 @@
             <repositories>
             <repository>
                 <id>mulesoft-releases</id>
-                <url>https://repository.mulesoft.org/nexus-ee/content/repositories/releases-ee/</url>
+                <url>https://repository.mulesoft.org/releases/</url>
             </repository>
             </repositories>
         </profile>
