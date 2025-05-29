@@ -37,7 +37,7 @@
                         <businessGroupId>0c5afb74-0b0b-415a-a863-8da8b128dbaa</businessGroupId>
                         <environment>DEV</environment>
                         <target>Cloudhub-US-East-2</target>
-                        <muleVersion>4.9.0</muleVersion>
+                        <muleVersion>4.9.5</muleVersion>
                         <server>Exchange2</server>
                         <applicationName>demo-app</applicationName>
                         <replicas>1</replicas>
