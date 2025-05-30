@@ -19,8 +19,8 @@ jobs:
       run: mvn -version
 
     - name: Deploy to Exchange
-      run: mvn deploy -settings .maven/settings.xml
+      run: mvn clean deploy -DskipMunitTests=false -settings .maven/settings.xml
 
     - name: Deploy to CloudHub
       run: |
-        mvn deploy -DmuleDeploy -settings .maven/settings.xml
+        mvn clean deploy -DmuleDeploy -settings .maven/settings.xml
